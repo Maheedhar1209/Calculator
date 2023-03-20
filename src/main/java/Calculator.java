@@ -5,7 +5,7 @@ public class Calculator {
     public static double square_root(double num){
         return  Math.sqrt(num);
     }
-    public static double factorial(double n) {
+    public static int factorial(int n) {
         if (n == 0) {
             return 1;
         } else {
